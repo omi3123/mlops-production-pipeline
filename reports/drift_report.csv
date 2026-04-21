@@ -1,0 +1,8 @@
+feature,type,psi,severity
+MonthlyCharges,numeric,1.3729096349143945,Drift
+InternetService,categorical,0.1997092471293388,Watch
+tenure,numeric,0.13386332002266907,Watch
+Contract,categorical,0.1228202441740165,Watch
+PaymentMethod,categorical,0.09177433198589915,Stable
+TotalCharges,numeric,0.08628942087095556,Stable
+SeniorCitizen,numeric,0.0,Stable

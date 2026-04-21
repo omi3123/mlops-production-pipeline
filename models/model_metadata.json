@@ -1,0 +1,44 @@
+{
+  "model_name": "telco-churn-prod-monitor",
+  "version": "1.0.0",
+  "task": "binary_classification",
+  "dataset": "IBM Telco Customer Churn",
+  "algorithm": "LogisticRegression + OneHotEncoder + StandardScaler",
+  "target_column": "Churn",
+  "id_column": "customerID",
+  "numeric_features": [
+    "SeniorCitizen",
+    "tenure",
+    "MonthlyCharges",
+    "TotalCharges"
+  ],
+  "categorical_features": [
+    "gender",
+    "Partner",
+    "Dependents",
+    "PhoneService",
+    "MultipleLines",
+    "InternetService",
+    "OnlineSecurity",
+    "OnlineBackup",
+    "DeviceProtection",
+    "TechSupport",
+    "StreamingTV",
+    "StreamingMovies",
+    "Contract",
+    "PaperlessBilling",
+    "PaymentMethod"
+  ],
+  "metrics": {
+    "roc_auc": 0.8466939668339284,
+    "average_precision": 0.6389975374185229,
+    "accuracy": 0.747741935483871,
+    "precision": 0.5157728706624606,
+    "recall": 0.7956204379562044,
+    "f1": 0.6258373205741626
+  },
+  "threshold": 0.5,
+  "training_rows": 5493,
+  "test_rows": 1550,
+  "created_utc": "2026-04-05T10:30:15.428167+00:00"
+}

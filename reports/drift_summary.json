@@ -1,0 +1,8 @@
+{
+  "reference_rows": 5493,
+  "current_rows": 120,
+  "evaluated_batch": "2026-03-19",
+  "drifted_features": 1,
+  "watch_features": 3,
+  "stable_features": 3
+}
